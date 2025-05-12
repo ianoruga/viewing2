@@ -7,7 +7,7 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/Robotics_2.glb");
+  const { nodes, materials } = useGLTF("/viewing2/Robotics_2.glb");
   return (
     <group {...props} dispose={null}>
       <mesh
